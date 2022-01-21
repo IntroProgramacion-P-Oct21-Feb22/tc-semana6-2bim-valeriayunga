@@ -1,6 +1,5 @@
 # Trabajo en Clases - Semana6 - Segundo Bimestre
 
-
 ### Actividades
 
 1. Use el proyecto de Netbeans denominado **Ejemplo**

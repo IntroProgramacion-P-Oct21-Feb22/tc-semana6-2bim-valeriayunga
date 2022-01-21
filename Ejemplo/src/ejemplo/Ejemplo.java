@@ -25,13 +25,13 @@ public class Ejemplo {
     }
 
     public static void obtenerDatos(int a, int b) {
-        int[] c = new int[10];
-        for (int i = 0; i < c.length; i++) {
-            c[i] = RandomUtils.nextInt(a, b);
+        int[] arreglo = new int[10];
+        for (int i = 0; i < arreglo.length; i++) {
+            arreglo[i] = RandomUtils.nextInt(a, b);
 
         }
-        for (int i = 0; i < c.length; i++) {
-            System.out.println(c[i]);
+        for (int i = 0; i < arreglo.length; i++) {
+            System.out.println(arreglo[i]);
         }
     }
 }

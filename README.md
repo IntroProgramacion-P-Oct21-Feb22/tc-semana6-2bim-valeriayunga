@@ -1,5 +1,4 @@
 # Trabajo en Clases - Semana6 - Segundo Bimestre
-Realizé este trabajon en clase junto a Ronin Carrion.
 
 ### Actividades
 

@@ -5,6 +5,8 @@
  */
 package ejemplo;
 
+import org.apache.commons.lang3.RandomUtils;
+
 /**
  *
  * @author reroes
@@ -16,6 +18,20 @@ public class Ejemplo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int a = 100;
+        int b = 110;
+        obtenerDatos(a, b);
+
     }
-    
+
+    public static void obtenerDatos(int a, int b) {
+        int[] c = new int[10];
+        for (int i = 0; i < c.length; i++) {
+            c[i] = RandomUtils.nextInt(a, b);
+
+        }
+        for (int i = 0; i < c.length; i++) {
+            System.out.println(c[i]);
+        }
+    }
 }
